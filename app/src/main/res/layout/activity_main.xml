@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.music_player.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/activity_main"
+        style="@style/sty3">
+
+        <TextView
+            style="@style/sty4"
+            android:text="@string/display" />
+
+        <LinearLayout
+            style="@style/sty5"
+            android:background="#01579b">
+
+            <Button
+                android:id="@+id/songs"
+                style="@style/sty2"
+                android:text="@string/songs" />
+
+            <Button
+                android:id="@+id/albums"
+                style="@style/sty2"
+                android:text="@string/albums" />
+
+            <Button
+                android:id="@+id/artists"
+                style="@style/sty2"
+                android:text="@string/artists" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/sty5">
+
+            <TextView
+                android:id="@+id/hipHop"
+                style="@style/sty1"
+                android:background="#ff9800"
+                android:text="@string/hipHop" />
+
+            <TextView
+                android:id="@+id/rock"
+                style="@style/sty1"
+                android:background="#ef6c00"
+                android:text="@string/rock" />
+
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/sty5">
+
+            <TextView
+                android:id="@+id/classical"
+                style="@style/sty1"
+                android:background="#2e7d32"
+                android:text="@string/classical" />
+
+            <TextView
+                android:id="@+id/jazz"
+                style="@style/sty1"
+                android:background="#4caf50"
+                android:text="@string/jazz" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/sty5">
+
+            <TextView
+                android:id="@+id/folk"
+                style="@style/sty1"
+                android:background="#795548"
+                android:text="@string/folk" />
+
+            <TextView
+                android:id="@+id/dance"
+                style="@style/sty1"
+                android:background="#4e342e"
+                android:text="@string/dance" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

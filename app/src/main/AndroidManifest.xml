@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.music_player">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GenreActivity"
+            android:label="@string/hipHop" />
+        <activity
+            android:name=".GenreActivity2"
+            android:label="@string/rock" />
+        <activity
+            android:name=".GenreActivity3"
+            android:label="@string/classical" />
+        <activity
+            android:name=".GenreActivity4"
+            android:label="@string/jazz" />
+        <activity
+            android:name=".GenreActivity5"
+            android:label="@string/folk" />
+        <activity
+            android:name=".GenreActivity6"
+            android:label="@string/dance" />
+        <activity android:name=".SongsActivity" />
+        <activity android:name=".AlbumsActivity" />
+        <activity android:name=".ArtistsActivity"></activity>
+    </application>
+
+</manifest>

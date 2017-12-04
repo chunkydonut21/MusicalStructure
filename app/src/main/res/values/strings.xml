@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Music_Player</string>
+    <string name="rock">Rock</string>
+    <string name="hipHop">Hip Hop</string>
+    <string name="classical">Classical</string>
+    <string name="folk">Folk</string>
+    <string name="dance">Dance</string>
+    <string name="jazz">Jazz</string>
+    <string name="artists">Artists</string>
+    <string name="albums">Albums</string>
+    <string name="songs">Songs</string>
+    <string name="genres">Genres</string>
+    <string name="display">The current running song\'s  Album Art will be displayed here.</string>
+    <string name="string1">Here list of all Songs will be displayed.</string>
+    <string name="string2">This screen will show Songs based on Artists.</string>
+    <string name="string3">This screen will show Songs based on Albums.</string>
+    <string name="category">This screen will show songs based on particular category.</string>
+</resources>
